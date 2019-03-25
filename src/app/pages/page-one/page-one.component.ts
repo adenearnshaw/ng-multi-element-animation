@@ -12,6 +12,8 @@ export class PageOneComponent implements OnInit {
     @HostBinding('@pageAnimations')
     public animatePage = true;
 
+    public emailInput = '';
+
     constructor() {}
 
     ngOnInit() {}
